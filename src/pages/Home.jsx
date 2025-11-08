@@ -21,7 +21,7 @@ const Feature = ({ icon, title, children, delay = 0 }) => (
   </div>
 );
 
-export default function Home() {
+export default function Home() { console.log('anything4444444')
   return (
     <main className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-100 antialiased">
       <div className={styles.blobs} aria-hidden="true">
@@ -38,7 +38,7 @@ export default function Home() {
           ].join(" ")}
           style={{ "--delay": "0ms" }}
         >
-          React + Vite + Tailwind
+          Gabriel + Kozakiewicz
         </span>
 
         <h1
@@ -49,7 +49,7 @@ export default function Home() {
           style={{ "--delay": "120ms" }}
         >
           <span className="bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">
-            Build. Ship. Delight.
+            Uncommited. Change
           </span>
         </h1>
 
@@ -57,8 +57,7 @@ export default function Home() {
           className={["mt-5 max-w-2xl text-center text-lg text-slate-400 md:text-xl", styles.fadeInUp].join(" ")}
           style={{ "--delay": "240ms" }}
         >
-          A clean, animated landing experience using Tailwind utilities and a tiny SCSS module. Smooth by default,
-          gentle on motion preferences.
+          Something very special coming
         </p>
 
         <div
@@ -69,13 +68,13 @@ export default function Home() {
             href="#get-started"
             className="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-5 py-3 font-medium text-white shadow-lg shadow-indigo-500/20 transition hover:-translate-y-0.5 hover:bg-indigo-400"
           >
-            Get Started
+            Something special
           </a>
           <a
             href="#learn-more"
             className="inline-flex items-center justify-center rounded-xl bg-slate-800/60 px-5 py-3 font-medium text-slate-200 ring-1 ring-white/10 backdrop-blur transition hover:ring-white/20"
           >
-            Learn More
+            Click to find out
           </a>
         </div>
       </section>
@@ -95,7 +94,7 @@ export default function Home() {
               </svg>
             }
           >
-            Vite dev server, instant HMR, and Tailwind JIT keep the feedback loop tight.
+            Support our creators. Our poor hard working developers have been working very hard just to build this page for you just for you to use it for free and not contribute to the page. Our developers have been feeding of instant ramen pleasee support us pleaseee
           </Feature>
 
           <Feature
@@ -115,10 +114,10 @@ export default function Home() {
             delay={240}
             icon={
               <svg width="24" height="24" viewBox="0 0 24 24" className="text-cyan-300">
-                <react x="4" y="4" width="7" height="7" rx="2" fill="currentColor" className="opacity-90" />
-                <react x="13" y="4" width="7" height="7" rx="2" fill="currentColor" className="opacity-70" />
-                <react x="4" y="13" width="7" height="7" rx="2" fill="currentColor" className="opacity-70" />
-                <react x="13" y="13" width="7" height="7" rx="2" fill="currentColor" className="opacity-50" />
+                <rect x="4" y="4" width="7" height="7" rx="2" fill="currentColor" className="opacity-90" />
+                <rect x="13" y="4" width="7" height="7" rx="2" fill="currentColor" className="opacity-70" />
+                <rect x="4" y="13" width="7" height="7" rx="2" fill="currentColor" className="opacity-70" />
+                <rect x="13" y="13" width="7" height="7" rx="2" fill="currentColor" className="opacity-50" />
               </svg>
             }
           >
